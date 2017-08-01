@@ -1,0 +1,25 @@
+CentOS
+yum install lua-devel openssl-devel libconfig-devel readline-devel libevent-devel libjansson-devel python-devel
+curl "https://bootstrap.pypa.io/get-pip.py" -o "get-pip.py"
+python get-pip.py
+pip install pytelegrambotapi
+python bot.py
+
+
+Ubuntu
+sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev libjansson-dev libpython-dev make
+apt-get update
+apt-get -y install python-pip
+   or
+curl "https://bootstrap.pypa.io/get-pip.py" -o "get-pip.py"
+python get-pip.py
+pip install pytelegrambotapi
+pip install json
+pip install python-telegram-bot==4.0rc1
+
+python bot.py
+
+
+wget http://download.opensuse.org/repositories/home:/uibmz:/opsi:/opsi40-testing/xUbuntu_12.04/amd64/winexe_1.00.1-1_amd64.deb
+sudo dpkg --install winexe_1.00.1-1_amd64.deb
+
